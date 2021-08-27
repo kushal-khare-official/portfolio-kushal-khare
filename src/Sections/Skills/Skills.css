@@ -1,0 +1,23 @@
+.skills__container {
+  row-gap: 2rem;
+  column-gap: 4rem;
+  text-align: center;
+}
+.skills__subtitle {
+  margin-bottom: var(--mb-2);
+}
+.skills__text {
+  margin-bottom: var(--mb-4);
+}
+@media screen and (min-width: 768px) {
+  .skills__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: initial;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .skills__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

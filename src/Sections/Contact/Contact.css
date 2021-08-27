@@ -1,0 +1,27 @@
+.contact {
+  background-color: var(--first-color);
+  padding-bottom: 1rem;
+}
+.contact .section-title {
+  color: #fff;
+}
+.contact .section-title::after {
+  background-color: #fff;
+  width: 8rem;
+}
+.contact__container {
+  padding: 2rem 5vw;
+  background-color: #fff;
+  margin: auto;
+  width: fit-content;
+  max-width: 90vw;
+}
+.contact__form {
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .contact__form {
+    width: 360px;
+  }
+}

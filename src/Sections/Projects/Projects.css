@@ -1,0 +1,31 @@
+.projects {
+  background-color: var(--first-color);
+}
+.projects .section-title {
+  color: #fff;
+}
+.projects .section-title::after {
+  background-color: #fff;
+  width: 8rem;
+}
+.projects__container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 5rem;
+  row-gap: 5rem;
+  width: 100%;
+  margin: auto;
+  margin-top: 7rem;
+  padding: 5vw;
+}
+
+@media screen and (min-width: 768px) {
+  .projects__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .projects__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
