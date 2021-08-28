@@ -1,4 +1,4 @@
-import about from '../../static/img/about.jpg'
+import about from '../../static/img/portfolio.jpg'
 
 import './About.css'
 

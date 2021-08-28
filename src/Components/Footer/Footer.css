@@ -9,9 +9,6 @@
   font-size: 1.4em;
   margin-bottom: var(--mb-4);
 }
-.footer__social {
-  margin-bottom: var(--mb-4);
-}
 .footer__icon {
   font-size: 1.5rem;
   color: #fff;

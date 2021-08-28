@@ -1,5 +1,7 @@
 import { Button, Card, TextField } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
+import { useState } from 'react'
+import { writeMessage } from '../../util/firebase'
 
 import './Contact.css'
 
@@ -28,23 +30,40 @@ const useStyles = makeStyles({
 
 const Contact = () => {
   const classes = useStyles()
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [msg, setMsg] = useState('')
 
+  const onSubmit = (event) => {
+    event.preventDefault()
+    writeMessage(name, email, msg)
+      .then(() => {
+        alert('We have received your message and try to get back to you ASAP!!')
+        setName('')
+        setEmail('')
+        setMsg('')
+        document.getElementById('contact_form').reset()
+      })
+      .catch((err) => console.log(err))
+  }
   return (
     <section className="contact section" id="contact">
       <h2 className="section-title">Contact</h2>
 
       <Card className="contact__container">
-        <form action="" className="contact__form">
+        <form className="contact__form" id="contact_form">
           <TextField
             label="Name"
             variant="filled"
             className={classes.contact__input}
+            onChange={(e) => setName(e.target.value)}
           />
           <TextField
             type="mail"
             label="Email"
             variant="filled"
             className={classes.contact__input}
+            onChange={(e) => setEmail(e.target.value)}
           />
           <TextField
             variant="filled"
@@ -52,11 +71,13 @@ const Contact = () => {
             multiline
             rows={10}
             className={classes.contact__input}
+            onChange={(e) => setMsg(e.target.value)}
           />
           <Button
             variant="contained"
             className={classes.contact__button}
             color="primary"
+            onClick={onSubmit}
           >
             Submit
           </Button>

@@ -65,7 +65,7 @@ const Home = () => {
             />
           </mask>
           <g mask="url(#mask0)">
-            <rect x="0" width="500" height="500" fill="url(#pattern0)" />
+            <rect x="0" width="700" height="500" fill="url(#pattern0)" />
           </g>
           <defs>
             <pattern
@@ -74,9 +74,9 @@ const Home = () => {
               width="1"
               height="1"
             >
-              <use xlinkHref="#image0" transform="scale(0.002)" />
+              <use xlinkHref="#image0" transform="scale(0.0023)" />
             </pattern>
-            <image id="image0" width="500" height="500" xlinkHref={portfolio} />
+            <image id="image0" width="375" x="-50px" xlinkHref={portfolio} />
           </defs>
           <g style={{ visibility: 'hidden' }}>
             <path

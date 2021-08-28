@@ -29,46 +29,40 @@ const Skills = () => {
         <div>
           <h2 className="skills__subtitle">Languages</h2>
           <p className="skills__text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-            optio id vero amet, alias architecto consectetur error eum eaque
-            sit.
+            Languages that I have picked up over the years
           </p>
-          <SkillsData name="Java" img={java} percentage="95%" />
-          <SkillsData name="JavaScript" img={js} percentage="95%" />
-          <SkillsData name="Python" img={python} percentage="95%" />
-          <SkillsData name="Solidity" img={solidity} percentage="95%" />
-          <SkillsData name="C++" img={cpp} percentage="95%" />
-          <SkillsData name="C" img={c} percentage="95%" />
+          <SkillsData name="Java" img={java} score={4} />
+          <SkillsData name="JavaScript" img={js} score={4} />
+          <SkillsData name="Python" img={python} score={3.5} />
+          <SkillsData name="Solidity" img={solidity} score={4} />
+          <SkillsData name="C++" img={cpp} score={4} />
+          <SkillsData name="C" img={c} score={4} />
         </div>
 
         <div>
           <h2 className="skills__subtitle">Primary Tech Stack</h2>
           <p className="skills__text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-            optio id vero amet, alias architecto consectetur error eum eaque
-            sit.
+            Libraries and Frameworks that I prefer and use on a daily basis
           </p>
-          <SkillsData name="MongoDB" img={mongo} percentage="95%" />
-          <SkillsData name="ExpressJS" img={express} percentage="95%" />
-          <SkillsData name="ReactJS" img={react} percentage="95%" />
-          <SkillsData name="NextJS" img={next} percentage="95%" />
-          <SkillsData name="NodeJS" img={node} percentage="95%" />
-          <SkillsData name="Django" img={django} percentage="95%" />
+          <SkillsData name="MongoDB" img={mongo} score={4} />
+          <SkillsData name="ExpressJS" img={express} score={4.5} />
+          <SkillsData name="ReactJS" img={react} score={4.5} />
+          <SkillsData name="NextJS" img={next} score={4.5} />
+          <SkillsData name="NodeJS" img={node} score={4.5} />
+          <SkillsData name="Ethereum" img={ethereum} score={4.5} />
         </div>
 
         <div>
           <h2 className="skills__subtitle">Tools and Frameworks</h2>
           <p className="skills__text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-            optio id vero amet, alias architecto consectetur error eum eaque
-            sit.
+            Tools that I know and use apart from my primary stack
           </p>
-          <SkillsData name="PostgreSQL" img={postgres} percentage="95%" />
-          <SkillsData name="Firebase" img={firebase} percentage="95%" />
-          <SkillsData name="JQuery" img={jquery} percentage="95%" />
-          <SkillsData name="Git and Github" img={git} percentage="95%" />
-          <SkillsData name="Docker" img={docker} percentage="95%" />
-          <SkillsData name="Ethereum" img={ethereum} percentage="95%" />
+          <SkillsData name="PostgreSQL" img={postgres} score={3.5} />
+          <SkillsData name="Firebase" img={firebase} score={4.5} />
+          <SkillsData name="JQuery" img={jquery} score={3.5} />
+          <SkillsData name="Django" img={django} score={4} />
+          <SkillsData name="Git and Github" img={git} score={4.5} />
+          <SkillsData name="Docker" img={docker} score={3} />
         </div>
       </div>
     </section>

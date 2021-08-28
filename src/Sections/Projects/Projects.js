@@ -14,7 +14,7 @@ const Projects = () => {
         <Cards2
           title="Jaipuria Model Untied Nations"
           description="A Website utilising JQuery and Bootstrap to give information about various events and enables users to register for the committee of their choice at Jaipuria Model United Nations 2017"
-          date="May, 2017"
+          date="May, 2018"
           link="https://the-jmun.web.app/"
           logo={jaipuria}
           bg="white"

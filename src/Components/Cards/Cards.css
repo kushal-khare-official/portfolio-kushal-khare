@@ -11,6 +11,11 @@
   overflow: hidden;
 }
 
+.card img {
+  max-height: 260px;
+  width: 100%;
+}
+
 .card:focus-within ~ .card,
 .card:hover ~ .card {
   transform: translateX(85vw);
@@ -57,7 +62,6 @@
     margin-left: -44vw;
   }
   .card img {
-    width: 100%;
     max-height: 460px;
   }
 }
