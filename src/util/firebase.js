@@ -1,5 +1,6 @@
 import { initializeApp } from 'firebase/app'
 import { getDatabase, ref, set } from 'firebase/database'
+import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_API_KEY,
@@ -11,7 +12,8 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_APP_ID,
 }
 
-initializeApp(firebaseConfig)
+const app = initializeApp(firebaseConfig)
+getAnalytics(app);
 
 export async function writeMessage(name, email, message) {
   const db = getDatabase()
