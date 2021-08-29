@@ -1,6 +1,6 @@
 {
   "name": "portfolio-kushal-khare",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "env-cmd -f .env.production react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -46,5 +46,15 @@
   "license": "ISC",
   "devDependencies": {
     "env-cmd": "^10.1.0"
-  }
+  },
+  "description": "Personal Portfolio - Kushal Khare",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushal-khare-official/portfolio-kushal-khare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kushal-khare-official/portfolio-kushal-khare/issues"
+  },
+  "homepage": "https://kushal.codes"
 }

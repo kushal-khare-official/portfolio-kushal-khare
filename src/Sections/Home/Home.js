@@ -1,13 +1,13 @@
+import { useEffect } from 'react'
 import Typed from 'react-typed'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import Kute from 'kute.js'
 
 import './Home.css'
 import portfolio from '../../static/img/portfolio.jpg'
 import resume from '../../static/Resume-Kushal Khare.pdf'
-import { useEffect } from 'react'
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 const Home = () => {
   useEffect(() => {

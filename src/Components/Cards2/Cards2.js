@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
+
 import './Cards2.css'
 import angular from '../../static/skills/angular.png'
 import firebase from '../../static/skills/firebase.png'
@@ -9,8 +12,6 @@ import react from '../../static/skills/react.png'
 import node from '../../static/skills/node.png'
 import django from '../../static/skills/django.png'
 import solidity from '../../static/skills/solidity.svg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 const Cards2 = (props) => {
   return (

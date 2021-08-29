@@ -1,17 +1,20 @@
+import { lazy, Suspense } from 'react'
+
 import './App.css'
-import Home from './Sections/Home/Home'
-import About from './Sections/About/About'
-import Skills from './Sections/Skills/Skills'
-import Projects from './Sections/Projects/Projects'
-import Certificates from './Sections/Certificates/Certificates'
-import Contact from './Sections/Contact/Contact'
-import Footer from './Components/Footer/Footer'
-import Header from './Components/Header/Header'
-import ScrollUp from './Components/ScrollUp/ScrollUp'
+
+const Home = lazy(() => import('./Sections/Home/Home'))
+const About = lazy(() => import('./Sections/About/About'))
+const Skills = lazy(() => import('./Sections/Skills/Skills'))
+const Projects = lazy(() => import('./Sections/Projects/Projects'))
+const Certificates = lazy(() => import('./Sections/Certificates/Certificates'))
+const Contact = lazy(() => import('./Sections/Contact/Contact'))
+const Footer = lazy(() => import('./Components/Footer/Footer'))
+const Header = lazy(() => import('./Components/Header/Header'))
+const ScrollUp = lazy(() => import('./Components/ScrollUp/ScrollUp'))
 
 function App() {
   return (
-    <>
+    <Suspense fallback={<div>Loading...</div>}>
       <ScrollUp />
       <Header />
       <main className="l-main">
@@ -88,7 +91,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-    </>
+    </Suspense>
   )
 }
 
