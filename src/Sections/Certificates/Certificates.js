@@ -1,13 +1,6 @@
 import { lazy, Suspense } from 'react'
 
 import './Certificates.css'
-import cybus from '../../static/Certificates/Cybus.jpg'
-import dps from '../../static/Certificates/DPS-ITFest.jpg'
-import excellence from '../../static/Certificates/Excellence.jpg'
-import hackathon from '../../static/Certificates/Hackathon2K21.png'
-import techvista from '../../static/Certificates/TechVista.jpg'
-import wro from '../../static/Certificates/WRO-Nationals.jpg'
-import jmun from '../../static/Certificates/JMUN.jpg'
 
 const Cards = lazy(() => import('../../Components/Cards/Cards'))
 
@@ -20,37 +13,37 @@ const Certificates = () => {
           <Cards
             description="Certificate of Participation in the India Nationls of World Robotics Olympiad 2016 coducted by India STEM Foundation"
             title="World Robotics Olympiad 2016"
-            img={wro}
+            img="https://ik.imagekit.io/kushal/Portfolio/Certificates/WRO-Nationals_L2yfuwUEE.jpg?updatedAt=1630247248105"
           />
           <Cards
             description="Certificate for serving as Head of Web Design at Sixth Chapter of Jaipuria Model United Nations 2017 by Seth MR Jaipuria School, Lucknow"
             title="Jaipuria Model United Nations 2018"
-            img={jmun}
+            img="https://ik.imagekit.io/kushal/Portfolio/Certificates/JMUN_CQkicabN4U.jpg?updatedAt=1630247248117"
           />
           <Cards
             description="Certificate of Merit for achieving 3rd place in debugging event of Cybus, a fest conducted by La Martinier Girls' College, Lucknow"
             title="Cybus"
-            img={cybus}
+            img="https://ik.imagekit.io/kushal/Portfolio/Certificates/Cybus_QRJXd3mCiP.jpg?updatedAt=1630247248101"
           />
           <Cards
             description="Certificate for serving as Coordinator of Weave-a-Web, a web designing event at Techvista 2018 conducted by Seth MR Jaipuria School, Lucknow"
             title="Techvista 2018"
-            img={techvista}
+            img="https://ik.imagekit.io/kushal/Portfolio/Certificates/TechVista_2TT1dNX3J.jpg?updatedAt=1630247248021"
           />
           <Cards
             description="Certificate of Merit for achieving 1st place in web designing event of De-Crew IT Fest conducted by Delhi Public School, Lucknow"
             title="De-Crew IT Fest 2018"
-            img={dps}
+            img="https://ik.imagekit.io/kushal/Portfolio/Certificates/DPS-ITFest_9FjVKS41V.jpg?updatedAt=1630247248036"
           />
           <Cards
             description="Certificate of Excellence for my consistent achievements in Web Designing and Development by Seth MR Jaipuria School, Lucknow"
             title="Certificate of Excellence"
-            img={excellence}
+            img="https://ik.imagekit.io/kushal/Portfolio/Certificates/Excellence_wlODd4ry4.jpg?updatedAt=1630247248056"
           />
           <Cards
             description="Certificate of Appreciation for being amongst top 10 teams among 600 participating teams in Full stack Theme at Hackathon 2K21 conducted by IIIT Pune"
             title="Hackathon 2K21"
-            img={hackathon}
+            img="https://ik.imagekit.io/kushal/Portfolio/Certificates/Hackathon2K21_-Ux6pUXNQX_.png?updatedAt=1630247247987"
           />
         </Suspense>
       </div>

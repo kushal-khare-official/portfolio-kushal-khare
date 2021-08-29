@@ -1,24 +1,6 @@
 import { lazy, Suspense } from 'react'
 
 import './Skills.css'
-import cpp from '../../static/skills/c++.png'
-import c from '../../static/skills/c.png'
-import git from '../../static/skills/git.png'
-import firebase from '../../static/skills/firebase.png'
-import js from '../../static/skills/js.png'
-import jquery from '../../static/skills/jquery.png'
-import mongo from '../../static/skills/mongo.png'
-import postgres from '../../static/skills/postgresql.png'
-import express from '../../static/skills/expressjs.png'
-import react from '../../static/skills/react.png'
-import node from '../../static/skills/node.png'
-import django from '../../static/skills/django.png'
-import solidity from '../../static/skills/solidity.svg'
-import python from '../../static/skills/python.png'
-import java from '../../static/skills/java.png'
-import next from '../../static/skills/nextjs.svg'
-import docker from '../../static/skills/docker.png'
-import ethereum from '../../static/skills/ethereum.svg'
 
 const SkillsData = lazy(() => import('../../Components/SkillsData/SkillsData'))
 
@@ -34,12 +16,36 @@ const Skills = () => {
             <p className="skills__text">
               Languages that I have picked up over the years
             </p>
-            <SkillsData name="Java" img={java} score={4} />
-            <SkillsData name="JavaScript" img={js} score={4} />
-            <SkillsData name="Python" img={python} score={3.5} />
-            <SkillsData name="Solidity" img={solidity} score={4} />
-            <SkillsData name="C++" img={cpp} score={4} />
-            <SkillsData name="C" img={c} score={4} />
+            <SkillsData
+              name="Java"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/java_5bxLDyeEY.png?updatedAt=1630247248026"
+              score={4}
+            />
+            <SkillsData
+              name="JavaScript"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/js_oZwOHVCZq.png?updatedAt=1630247248010"
+              score={4}
+            />
+            <SkillsData
+              name="Python"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/python_nbkYOID51.png?updatedAt=1630247247970"
+              score={3.5}
+            />
+            <SkillsData
+              name="Solidity"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/solidity_PmEkw8U-O.svg?updatedAt=1630247247985"
+              score={4}
+            />
+            <SkillsData
+              name="C++"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/c___pwQAQFS1l.png?updatedAt=1630247247991"
+              score={4}
+            />
+            <SkillsData
+              name="C"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/c_eErCidCNwV.png?updatedAt=1630247247946"
+              score={4}
+            />
           </div>
 
           <div>
@@ -47,12 +53,36 @@ const Skills = () => {
             <p className="skills__text">
               Libraries and Frameworks that I prefer and use on a daily basis
             </p>
-            <SkillsData name="MongoDB" img={mongo} score={4} />
-            <SkillsData name="ExpressJS" img={express} score={4.5} />
-            <SkillsData name="ReactJS" img={react} score={4.5} />
-            <SkillsData name="NextJS" img={next} score={4.5} />
-            <SkillsData name="NodeJS" img={node} score={4.5} />
-            <SkillsData name="Ethereum" img={ethereum} score={4.5} />
+            <SkillsData
+              name="MongoDB"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/mongo_xioxr84PBz.png?updatedAt=1630247248001"
+              score={4}
+            />
+            <SkillsData
+              name="ExpressJS"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/expressjs_KB1AmgF7gO.png?updatedAt=1630247247983"
+              score={4.5}
+            />
+            <SkillsData
+              name="ReactJS"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/react_1jHxNn6m-a.png?updatedAt=1630247248053"
+              score={4.5}
+            />
+            <SkillsData
+              name="NextJS"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/nextjs_M2d0dj4B3.svg?updatedAt=1630247248050"
+              score={4.5}
+            />
+            <SkillsData
+              name="NodeJS"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/node_KTZVQTx_Pu.png?updatedAt=1630247247969"
+              score={4.5}
+            />
+            <SkillsData
+              name="Ethereum"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/ethereum_U7pSogacm.svg?updatedAt=1630247247961"
+              score={4.5}
+            />
           </div>
 
           <div>
@@ -60,12 +90,36 @@ const Skills = () => {
             <p className="skills__text">
               Tools that I know and use apart from my primary stack
             </p>
-            <SkillsData name="PostgreSQL" img={postgres} score={3.5} />
-            <SkillsData name="Firebase" img={firebase} score={4.5} />
-            <SkillsData name="JQuery" img={jquery} score={3.5} />
-            <SkillsData name="Django" img={django} score={4} />
-            <SkillsData name="Git and Github" img={git} score={4.5} />
-            <SkillsData name="Docker" img={docker} score={3} />
+            <SkillsData
+              name="PostgreSQL"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/postgresql_s3JCaylzk.png?updatedAt=1630247247972"
+              score={3.5}
+            />
+            <SkillsData
+              name="Firebase"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/firebase_xosAW6H4q.png?updatedAt=1630247247956"
+              score={4.5}
+            />
+            <SkillsData
+              name="JQuery"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/jquery_TanoqoGdyB.png?updatedAt=1630247247959"
+              score={3.5}
+            />
+            <SkillsData
+              name="Django"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/django_LVH6inw6NN.png?updatedAt=1630247247966"
+              score={4}
+            />
+            <SkillsData
+              name="Git and Github"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/git_fdnMhxZlSA.png?updatedAt=1630247248024"
+              score={4.5}
+            />
+            <SkillsData
+              name="Docker"
+              img="https://ik.imagekit.io/kushal/Portfolio/skills/docker_U5w9TryIjn.png?updatedAt=1630247248020"
+              score={3}
+            />
           </div>
         </Suspense>
       </div>

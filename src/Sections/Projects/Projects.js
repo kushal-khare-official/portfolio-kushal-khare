@@ -1,8 +1,5 @@
 import { lazy, Suspense } from 'react'
 import './Projects.css'
-import jaipuria from '../../static/img/jaipuria.png'
-import techvista from '../../static/img/techvista.png'
-import technovation from '../../static/img/technovation.png'
 
 const Cards2 = lazy(() => import('../../Components/Cards2/Cards2'))
 
@@ -18,7 +15,7 @@ const Projects = () => {
             description="A Website utilising JQuery and Bootstrap to give information about various events and enables users to register for the committee of their choice at Jaipuria Model United Nations 2017"
             date="May, 2018"
             link="https://the-jmun.web.app/"
-            logo={jaipuria}
+            logo="https://ik.imagekit.io/kushal/Portfolio/Projects/jaipuria_118F-_7CU.png?updatedAt=1630247559042"
             bg="white"
             bs
             jquery
@@ -29,7 +26,7 @@ const Projects = () => {
             description="A website to conduct Seth MR Jaipuria School's TechFest, TechVista. It gives information about the various events in the fest and conducts an online quiz for prelims of the Fest."
             date="August, 2018"
             link="https://tech--vista.web.app/"
-            logo={techvista}
+            logo="https://ik.imagekit.io/kushal/Portfolio/Projects/techvista_9dajXEYxI.png?updatedAt=1630247558978"
             bg="white"
             angular
             firebase
@@ -39,9 +36,10 @@ const Projects = () => {
             description="A Website based on MERN Stack to conduct IERT's Annual TechFest, Technovation. It gives information about various events and enables users to register in events of their choice."
             date="August, 2020"
             link="https://tech-novation.web.app/"
-            logo={technovation}
+            logo="https://ik.imagekit.io/kushal/Portfolio/Projects/technovation_U1M5Ah_Nd.png?updatedAt=1630247559040"
             bg="black"
             mongo
+            express
             react
             node
           />

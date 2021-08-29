@@ -6,8 +6,6 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import Kute from 'kute.js'
 
 import './Home.css'
-import portfolio from '../../static/img/portfolio.jpg'
-import resume from '../../static/Resume-Kushal Khare.pdf'
 
 const Home = () => {
   useEffect(() => {
@@ -76,7 +74,12 @@ const Home = () => {
             >
               <use xlinkHref="#image0" transform="scale(0.0023)" />
             </pattern>
-            <image id="image0" width="375" x="-50px" xlinkHref={portfolio} />
+            <image
+              id="image0"
+              width="375"
+              x="-50px"
+              xlinkHref="https://ik.imagekit.io/kushal/Portfolio/portfolio_ak6NGDReI2.jpg?updatedAt=1630247518740"
+            />
           </defs>
           <g style={{ visibility: 'hidden' }}>
             <path
@@ -104,7 +107,13 @@ const Home = () => {
           <br /> Development
         </h1>
 
-        <a href={resume} className="button" download="Resume-Kushal Khare">
+        <a
+          href="https://ik.imagekit.io/kushal/Portfolio/Resume-Kushal_Khare_ltZg_jbKI1.pdf?updatedAt=1630247247896"
+          className="button"
+          download="Resume-Kushal Khare"
+          target="_blank"
+          rel="noreferrer"
+        >
           Resume
           <FontAwesomeIcon icon={faArrowDown} style={{ marginLeft: '1rem' }} />
         </a>

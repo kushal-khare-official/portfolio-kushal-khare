@@ -1,5 +1,3 @@
-import about from '../../static/img/portfolio.jpg'
-
 import './About.css'
 
 const About = () => {
@@ -9,13 +7,19 @@ const About = () => {
 
       <div className="about__container bd-grid">
         <div className="about__img">
-          <img src={about} alt="" />
+          <img
+            src="https://ik.imagekit.io/kushal/Portfolio/portfolio_ak6NGDReI2.jpg?updatedAt=1630247518740"
+            alt="Kushal Khare"
+          />
         </div>
 
         <div>
           <h2 className="about__subtitle">I am Kushal Khare</h2>
           <p className="about__text">
-          A motivated programmer with background in Web and Blockchain Technologies and an enthusiasm for Open Source software. Expertise includes JavaScript and Python development tools. Team-oriented and hardworking with good verbal and written communication skills
+            A motivated programmer with background in Web and Blockchain
+            Technologies and an enthusiasm for Open Source software. Expertise
+            includes JavaScript and Python development tools. Team-oriented and
+            hardworking with good verbal and written communication skills
           </p>
         </div>
       </div>
