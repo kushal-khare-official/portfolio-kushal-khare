@@ -1,4 +1,5 @@
 import { lazy, Suspense } from 'react'
+import Loader from './Components/Loader/Loader'
 
 import './App.css'
 
@@ -14,7 +15,7 @@ const ScrollUp = lazy(() => import('./Components/ScrollUp/ScrollUp'))
 
 function App() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<Loader/>}>
       <ScrollUp />
       <Header />
       <main className="l-main">

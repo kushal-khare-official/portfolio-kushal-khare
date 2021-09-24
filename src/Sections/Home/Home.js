@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import Typed from 'react-typed'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
 import Kute from 'kute.js'
 
 import './Home.css'
@@ -108,14 +108,14 @@ const Home = () => {
         </h1>
 
         <a
-          href="https://ik.imagekit.io/kushal/Portfolio/Resume-Kushal_Khare_ltZg_jbKI1.pdf?updatedAt=1630518252552"
+          href="https://ik.imagekit.io/kushal/Portfolio/Resume-Kushal_Khare_ltZg_jbKI1.pdf?updatedAt=1632481078134"
           className="button"
           download="Resume-Kushal Khare"
           target="_blank"
           rel="noreferrer"
         >
           Resume
-          <FontAwesomeIcon icon={faArrowDown} style={{ marginLeft: '1rem' }} />
+          <FontAwesomeIcon icon={faFileDownload} style={{ marginLeft: '1rem' }} />
         </a>
       </div>
     </section>

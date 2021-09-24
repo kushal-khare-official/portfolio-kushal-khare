@@ -1,0 +1,47 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+}
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+.loader {
+  background-color: #448AFF;
+  margin: 35vh auto;
+  font-size: 10px;
+  color: #000;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid #4070f438;
+  border-right: 1.1em solid #4070f438;
+  border-bottom: 1.1em solid #4070f438;
+  border-left: 1.1em solid #4070f4;
+  transform: translateZ(0);
+  animation: load 1.1s infinite linear;
+}
+.loader img {
+  margin: 18%;
+  animation: loadA 1.1s infinite linear;
+}
+@keyframes load {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loadA {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
