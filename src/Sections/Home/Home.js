@@ -63,7 +63,7 @@ const Home = () => {
             />
           </mask>
           <g mask="url(#mask0)">
-            <rect x="0" width="700" height="500" fill="url(#pattern0)" />
+            <rect x="0" width="700" height="700" fill="url(#pattern0)" />
           </g>
           <defs>
             <pattern
@@ -78,7 +78,7 @@ const Home = () => {
               id="image0"
               width="375"
               x="-50px"
-              xlinkHref="https://ik.imagekit.io/kushal/Portfolio/portfolio_ak6NGDReI2.jpg?updatedAt=1630247518740"
+              xlinkHref="https://ik.imagekit.io/kushal/Portfolio/IMG_20210922_134602_d1xffURBW.jpg?updatedAt=1634632424392"
             />
           </defs>
           <g style={{ visibility: 'hidden' }}>

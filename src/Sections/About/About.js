@@ -8,7 +8,7 @@ const About = () => {
       <div className="about__container bd-grid">
         <div className="about__img">
           <img
-            src="https://ik.imagekit.io/kushal/Portfolio/portfolio_ak6NGDReI2.jpg?updatedAt=1630247518740"
+            src="https://ik.imagekit.io/kushal/Portfolio/IMG_20210922_134602_d1xffURBW.jpg?updatedAt=1634632424392"
             alt="Kushal Khare"
           />
         </div>
