@@ -108,7 +108,7 @@ const Home = () => {
         </h1>
 
         <a
-          href="https://ik.imagekit.io/kushal/Portfolio/Resume-Kushal_Khare_ltZg_jbKI1.pdf?updatedAt=1632481078134"
+          href="https://ik.imagekit.io/kushal/Portfolio/Kushal_Khare__Resume_DCHp8VDq5.pdf"
           className="button"
           download="Resume-Kushal Khare"
           target="_blank"
